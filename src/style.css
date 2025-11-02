@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, cursive;
+}
+
+body {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.main-container h1 {
+    margin: 15px 0;
+}
+
+.joke-container {
+    border: 2px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #d8d6d6;
+    cursor: pointer;
+}
+
+#status_text {
+    margin: 10px 0;
+}
+
